@@ -1,0 +1,128 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.main-text{
+    height: 100vh;
+    background: rgb(105, 187, 219);
+    position: relative;
+}
+main{
+    display: block;
+    
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 20%;
+    gap: 10px;
+}
+.intro h1{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+.intro-btn-group{
+    display: flex;
+    gap: 30px;
+}
+.intro-btn-group button{
+    font-size: 18px;
+    padding: 6px 22px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px;
+}
+.intro-btn-group button:hover{
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+}
+.score-text{
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.human-score{
+    text-align: center;
+}
+.human-score p{
+    font-size: 100px;
+}
+.human-score span{
+    font-size: 20px;
+    color:#000;
+}
+.result-div p{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+.result-div span{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.computer-score{
+    text-align: center;
+}
+.computer-score p{
+    font-size: 100px;
+}
+.computer-score span{
+    font-size: 20px;
+    color: #000;
+}
+.image-text{
+    gap: 30px;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.image-text img{
+    width: 28%;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#computerHand{
+    transform: scaleX(-1);
+}
+.btn-group{
+    gap: 50px;
+    margin-top: 60px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-group button {
+    padding: 22px 26px;
+    border-radius: 55%;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    font-size: 22px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px #00000881;
+}
+#playerWin{
+   color: #37ff00;
+   font-size: 50px;
+   display: none;
+}
+#playerLose{
+    color: #ff0000;
+    font-size: 50px;
+    display: none;
+}

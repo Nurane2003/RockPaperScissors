@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+    <main class="main-text">
+        <div class="intro">
+            <h1>Are you ready?</h1>
+            <div class="intro-btn-group">
+                <button class="play-btn">Let's Play</button>
+                <button class="cansel-btn">Cansel</button>
+            </div>
+        </div>
+
+        <div class="game">
+            <div class="score-text">
+                <div class="human-score">
+                    <p id="humanScore">0</p>
+                    <span>YOU</span>
+                </div>
+                <div class="result-div">
+                    <p>WIN:
+                        <span id="winResult">0</span>
+                    </p>
+                    <p>LOSE:
+                        <span id="loseResult">0</span>
+                    </p>
+                </div>
+                <div class="computer-score">
+                    <p id="computerScore">0</p>
+                    <span>AI</span>
+                </div>
+            </div>
+            <div class="image-text">
+                <img id="humanHand" src="/images/r.png">
+                <div class="result-text">
+                    <p id="playerWin">YOU WIN!</p>
+                    <p id="playerLose">YOU LOSE!</p>
+                </div>
+                <img id="computerHand" src="/images/r.png">
+            </div>
+            <div class=" btn-group">
+                <button class="rockBtn">R</button>
+                <button class="paperBtn">P</button>
+                <button class="scisBtn">S</button>
+            </div>
+        </div>
+    </main>
+    <script src="/index.js"></script>
+</body>
+</html>
